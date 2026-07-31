@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio-node",
+  "version": "1.0.0",
+  "description": "CRUD de usuarios con TypeScript, POO, axios y json-server",
+  "main": "dist/index.js",
+  "scripts": {
+    "db": "json-server --watch db.json --port 3000",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "json-server": "0.17.4",
+    "typescript": "^5.6.2"
+  }
+}
