@@ -15,7 +15,7 @@ export interface User {
 // eso significa que se llaman con UserController.metodo() sin crear un objeto.
 class UserController {
   // URL base del json-server. Todos los métodos la reutilizan.
-  static apiUrl: string = "http://localhost:3000/users";
+  static apiUrl: string = "http://localhost:3001/users";
 
   // ===== READ =====
 
